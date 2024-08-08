@@ -3,11 +3,6 @@
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
-@import './pages/index.scss';
-
-
-
 img {
     max-width: 100%;
     height: auto;
@@ -16,7 +11,7 @@ img {
 
 *,*::before, *::after {
     box-sizing: border-box;
-    outline: 1px solid $color-black;
+    // outline: 1px solid $color-black;
 }
 a {
     text-decoration: none;
@@ -486,6 +481,9 @@ h4 {
     h2 {
         font-size: 24px;
     }
+    .column-2 {
+        width: 100%;
+    }
     .column-3 {
         width: 100%;
     }
@@ -502,6 +500,47 @@ h4 {
     }
     .tab-menu-items-title {
         font-size: 24px;
+    }
+    .contact-wrap {
+        width: 100%;
+    }
+    .feature-title {
+        font-size: 48px;
+    }
+    .feature-subtitle {
+        font-size: 24px;
+    }
+    .feature-list {
+        flex-wrap: wrap;
+    }
+    .series-title {
+        font-size: 48px;
+    }
+    .series-list {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .series-items img {
+        width: 336px;
+        margin: 0 auto;
+    }
+    .design-title {
+        font-size: 48px;
+    }
+    .design-list {
+        flex-wrap: wrap;
+    }
+    .customer-title {
+        font-size: 48px;
+    }
+    .customer-wrap {
+        flex-wrap: wrap;
+    }
+    .customer-list {
+        margin-bottom: 24px;
+    }
+    .title-eng {
+        font-size: 48px;    
     }
 }
 
@@ -607,6 +646,11 @@ h4 {
     }
     .customer-list {
         margin-bottom: 16px;
+        height: 512px;
+    }
+    .customer-items img {
+        width: 348px;
+        margin: 0 auto;
     }
     .contact {
         padding-top: 40px;
@@ -615,13 +659,24 @@ h4 {
     .contact-wrap {
         width: 100%;
     }
+    .feature-title {
+        font-size: 24px;
+    }
+    .series-title {
+        font-size: 24px;
+    }
+    .design-title {
+        font-size: 24px;
+    }
+    .customer-title {
+        font-size: 24px;
+    }
     .form-checkbox-wrap {
         align-items: start;
     }
     .form-button {
         width: 100%;
     }
-
     .footer {
         padding-top: 32px;
     }
