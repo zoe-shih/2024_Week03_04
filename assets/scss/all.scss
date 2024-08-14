@@ -18,7 +18,7 @@ a {
 }
 
 body {
-    font-family: "Noto Sans TC", "Roboto", sans-serif;
+    font-family: "Roboto" , "Noto Sans TC" , sans-serif;
     line-height: 1.5;
     
 }
@@ -377,7 +377,7 @@ h4 {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     height: 296px;
 }
 
@@ -476,7 +476,14 @@ h4 {
     color: #ffffff;
 }
 
-
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .column-3 {
+        width: 100%;
+    }
+    .title-eng {
+        font-size: 40px;    
+    }
+}
 @media (max-width: 768px){
     h2 {
         font-size: 24px;
@@ -489,6 +496,12 @@ h4 {
     }
     .column-4 {
         width: 50%;
+    }
+    .banner {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     }
     .banner-img-1 {
         background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true");
@@ -541,6 +554,12 @@ h4 {
     }
     .title-eng {
         font-size: 48px;    
+    }
+    .footer-menu {
+        display: none;
+    }
+    .footer-contact {
+        margin-top: 0;
     }
 }
 
